@@ -1,0 +1,182 @@
+<!DOCTYPE html> <!-- USO DE IA -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica N°2 – Presentación Personal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: #f4f1fb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(83, 74, 183, 0.12);
+    }
+
+    .card-header {
+      background: #AFA9EC;
+      padding: 2rem 1.5rem 1.5rem;
+    }
+
+    .avatar {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: #EEEDFE;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #3C3489;
+      margin-bottom: 1rem;
+      border: 3px solid #EEEDFE;
+      font-family: Arial, sans-serif;
+    }
+
+    .card-header h1 {
+      font-size: 26px;
+      font-weight: bold;
+      color: #26215C;
+      margin-bottom: 4px;
+      font-family: Arial, sans-serif;
+    }
+
+    .card-header p {
+      font-size: 14px;
+      color: #3C3489;
+      font-style: italic;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    .bio {
+      font-size: 15px;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #eeebf9;
+      margin: 1.25rem 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 13px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      background: #f4f1fb;
+      color: #534AB7;
+      border: 1px solid #CECBF6;
+      font-family: Arial, sans-serif;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .metric {
+      background: #f9f8fe;
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+      border: 1px solid #eeebf9;
+    }
+
+    .metric-label {
+      font-size: 11px;
+      color: #aaa;
+      margin-bottom: 4px;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+
+    .metric-value {
+      font-size: 22px;
+      font-weight: bold;
+      color: #3C3489;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="card-header">
+      <div class="avatar">N</div>
+      <h1>Nathaly</h1>
+      <p>Amante del arte y la creatividad</p>
+    </div>
+
+    <div class="card-body">
+
+      <p class="section-label">Sobre mí</p>
+      <p class="bio">
+        Tengo 31 años, soy mulata y tengo el cabello rizado.
+        Me apasiona expresarme a través del arte en sus distintas formas.
+      </p>
+
+      <hr class="divider">
+
+      <p class="section-label">Intereses</p>
+      <div class="tags">
+        <span class="tag">Pintura</span>
+        <span class="tag">Arte</span>
+        <span class="tag">Música</span>
+        <span class="tag">Otras artes</span>
+      </div>
+
+      <hr class="divider">
+
+      <div class="metrics">
+        <div class="metric">
+          <p class="metric-label">Edad</p>
+          <p class="metric-value">31</p>
+        </div>
+        <div class="metric">
+          <p class="metric-label">Intereses</p>
+          <p class="metric-value">4+</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
