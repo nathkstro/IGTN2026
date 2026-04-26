@@ -1,0 +1,63 @@
+/* USO DE IA 
+ Fondo general */
+body {
+    background-color: lightgray;
+}
+
+/* Títulos */
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+/* Párrafos */
+p {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/* MENÚ COMO BLOQUE CENTRADO */
+.menu {
+    background-color: black;
+    text-align: center;
+}
+
+/* Ítems del menú */
+.menu li {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+/* Links */
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* ID primero */
+#primero {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* ID segundo */
+#segundo {
+    background-color: darkred;
+    color: white;
+}
+
+/* Clases */
+.especial {
+    background-color: orange;
+}
+
+.dinamico {
+    color: blue;
+}
