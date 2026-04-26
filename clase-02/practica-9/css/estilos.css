@@ -1,0 +1,34 @@
+p {
+	background: yellow;
+	text-align: center;
+	color: blue;
+}
+
+h1 {
+	color: yellow;
+	background: blue;
+	text-align: center;
+}
+
+ul {
+	background: purple;
+	color: white;
+}
+
+#primero {
+	color: white;
+	background: black;
+}
+
+#segundo {
+	color: grey;
+	background: greenyellow;
+}
+
+.especial{
+	background: red;
+}
+
+.dinamico{
+	color: darkred;
+}
