@@ -1,0 +1,55 @@
+body { /* USO DE IA */
+	background: LightYellow;
+	font-family: Arial, sans-serif;
+}
+
+p {
+	text-align: left;
+}
+nav ul {
+	list-style: none;
+	padding: 0; /* DEJO COMO COMENTARIO PORQUE NO LO HEMOS VISMO AÚN */
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px; /* DEJO COMO COMENTARIO PORQUE NO LO HEMOS VISMO AÚN */
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+section {
+	background: #ffe4c4; /* más suave */
+	/*padding: 10px; DEJO COMO COMENTARIO PORQUE NO LO HEMOS VISMO AÚN
+	margin: 10px;*/ 
+}
+
+h1, h2, h3, h4 {
+	background: #f0c04a;
+	color: #2c2c54;
+	font-family: Georgia, serif;
+	/*padding: 5px; DEJO COMO COMENTARIO PORQUE NO LO HEMOS VISMO AÚN */
+}
+footer
+{
+	background: LightSkyBlue;
+	font-family: Lucida Handwriting;
+	font-size: 30px
+}
+
+.parrafo {
+	color: #333;
+	line-height: 1.6;
+}
+
+.disney {
+	color: #b22222;
+	font-size: 14px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
