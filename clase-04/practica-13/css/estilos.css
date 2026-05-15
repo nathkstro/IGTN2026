@@ -1,0 +1,78 @@
+ body {
+ 	background-image: url("../img/caba3.jpeg");
+    background-position: center;
+    font-family: "Libre Baskerville", ;
+    font-weight: 400;
+ }
+
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	background: rgba(0, 0, 100, 0.80);
+	padding: 1em;
+	margin: 0 auto;
+	color: white;
+	border-radius: 10px;
+}
+
+ h1 , h2, h3 {
+	color: DarkBlue; 
+	background-color: MistyRose;
+	text-align: center;
+	border-radius: 10px;
+	border: 3px solid HotPink;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	background: SkyBlue;
+	padding: 0.52em;
+	line-height: 2em;
+	border-radius: 10px;
+	border: 5px solid LightCyan;
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: BlueViolet;
+}
+
+a:hover {
+	color: darkblue;
+}
+
+a:active {
+	color: black;
+}
+p {
+	color: darkblue;
+	background-color: MistyRose;
+	border-radius: 10px;
+	padding: 1em;
+	border: 5px solid skyblue;
+}
+
+img{
+	display: block;
+   margin: center;
+   width: 100%;
+   border-radius: 10px
+}
+
+footer {
+	margin: 1em;
+	text-align: center;
+	font-size: 1em;
+}
